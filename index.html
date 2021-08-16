@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet"> 
+
+    <!-- my styles -->
+    <link rel="stylesheet" href="styles/styles.css"
+
+    <!-- style from Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <!-- script from Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- geocoder -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+    <!-- ruler -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gokertanrisever/leaflet-ruler@master/src/leaflet-ruler.css" integrity="sha384-P9DABSdtEY/XDbEInD3q+PlL+BjqPCXGcF8EkhtKSfSTr/dS5PBKa9+/PMkW2xsY" crossorigin="anonymous">  
+    <script src="https://cdn.jsdelivr.net/gh/gokertanrisever/leaflet-ruler@master/src/leaflet-ruler.js" integrity="sha384-N2S8y7hRzXUPiepaSiUvBH1ZZ7Tc/ZfchhbPdvOE5v3aBBCIepq9l+dBJPFdo1ZJ" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+    <h1 class="title">Localización de áreas afectadas por posibles desastres naturales o retiros de protección</h1>
+
+    <div class="map-container container">
+        <div id="mapa" ></div>
+    </div>
+
+
+    <div class="consejos">
+        <p>
+            La finalidad de este mapa es brindarles apoyo en cuanto a la ubicación de su propiedad o su futura propiedad, ya que muestra zonas que pueden perjudicar el desarrollo de <strong>infraestrutura</strong> debido a ciertas normativas (como el retiro de un pozo o concesión) así como posibles <strong>desastres</strong> ocasionados por fuertes lluvias (zonas con potencial inundación) u otros elementos naturales.  
+        </p>
+        <p>
+            Por lo tanto, utilice este mapa como una forma de prevención o como un aliado que se debe tomar en cuenta para diseño de infraestrutura.
+        </p>
+        <p>
+            Importante mencionar que los datos provienen de los servicios que brinda el Instituto Geográfico Nacional de Costa Rica a través del SNIT (<strong><a href="https://www.snitcr.go.cr/">Sistema Nacional de Información Territorial</a></strong>).
+        </p>
+    </div>
+
+    <footer class="bottom">
+        <p class="text-center ">Designed by Jose Benavides &copy 2021 </p>
+    </footer>
+
+
+
+
+
+    <!-- my scripts -->
+    <script src="scripts/myjavascript.js"></script>
+</body>
+</html>

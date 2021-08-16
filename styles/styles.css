@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(33, 33, 44);
+    font-family: 'Noto Serif', serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(248, 231, 206);
+}
+
+.consejos p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(231, 216, 193);
+}
+
+.container {
+    max-width: 120rem;
+}
+
+.title {
+    padding: 0 2rem;
+}
+
+.consejos {
+    padding: 0 2rem;
+}
+
+
+.map-container {
+    height: 40rem;
+    margin: auto;
+}
+
+#mapa {
+    height: 100%;
+}
+
+.bottom {
+    background-color: rgb(236, 52, 89);
+    margin: auto;
+}
+
+.bottom p {
+    color: rgb(230, 210, 180);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
